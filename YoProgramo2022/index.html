@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>YoProgramo</title>
+
+    <!--Repositorios-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+    <!--css-->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <!--Link js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+
+    <!--Navar-->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <ul>
+                <li style="--i:#c3d5fc;--j:#f9ccf8;">
+                    <span class="icon">
+
+
+                        <div class="logo"><img src="img/argentina-programa-logo.png" style="width: 40px; height: 40px;">
+                        </div>
+
+                    </span>
+                    <span class="titulo"></span>
+                </li>
+            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="spacing-navar-red-social">
+                    <ul>
+                        <li style="--i:#a955ff;--j:#ea51ff;">
+                            <span class="icon"><i class="fa fa-facebook"></i></span>
+                            <span class="titulo">facebook</span>
+                        </li>
+                        <li style="--i:#56CCF2;--j:#2F80ED;">
+                            <span class="icon"><i class="fa fa-twitter"></i></span>
+                            <span class="titulo">twitter</span>
+                        </li>
+                        <li style="--i:#86be6b;--j:#1baf16;">
+                            <span class="icon"><i class="fa fa-whatsapp"></i></span>
+                            <span class="titulo">whatsapp</span>
+                        </li>
+                        <li style="--i:#80FF72;--j:#5ec3d4;">
+                            <span class="icon"><i class="fa fa-linkedin"></i></span>
+                            <span class="titulo">linkedin</span>
+                        </li>
+                        <li style="--i:#FFA9C6;--j:#F434E2;">
+                            <span class="icon"><i class="fa fa-instagram"></i></span>
+                            <span class="titulo">instagram</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!--Portada-->
+
+    <!-- <div class="cover">
+        <div class="banner position-absolute top-50 start-50 translate-middle shadow  bg-body-tertiary rounded">
+      <img src="img/banner-2.jpg" alt="">
+    </div>-->
+
+
+    <section class="perfil-usuario">
+        <div class="contenedor-perfil">
+            <div class="portada-perfil" style="background-image: url('img/banner-girasol.jpg');">
+                <div class="sombra"></div>
+                <div class="avatar-perfil">
+                    <img src="img/profile.png" alt="img">
+                    <a href="#" class="cambiar-foto">
+                        <i class="fas fa-camera"></i>
+                        <span>Cambiar foto</span>
+                    </a>
+                </div>
+                <div class="datos-perfil">
+                    <h4 class="titulo-usuario">Gonzalo Ezequiel Adami</h4>
+                    <p class="bio-usuario">Estudiante #YoProgramo</p>
+
+                </div>
+                <div class="opcciones-perfil">
+                    <button type="">Cambiar portada</button>
+                    <button type=""><i class="fas fa-wrench"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="seccion-perfil-usuario" style="margin-left: 25%;">
+        <div class="perfil-usuario-header">
+   <div class="conteiner">
+            <div class="perfil-usuario-body">
+                <div class="perfil-usuario-bio ">
+                    
+s
+</div>
+</div>
+<div class="perfil-usuario-body">
+    <div class="perfil-usuario-bio ">
+        
+                   
+                    <div class="row">
+
+                        <h3 class="titulo">Experiencias</h3>
+                        <p class="texto">Añade tus Experiencias laborales.</p>
+
+
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                Añadir informacion
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog ">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Experiencia laboral
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body ">
+                                            <input type="text" style="width: 450px; height: 100px;">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Cerrar</button>
+                                            <button type="button" class="btn btn-primary">Publicar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                Añadir informacion
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog ">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Experiencia laboral
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body ">
+                                            <input type="text" style="width: 450px; height: 100px;">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Cerrar</button>
+                                            <button type="button" class="btn btn-primary">Publicar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                Añadir informacion
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog ">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Experiencia laboral
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body ">
+                                            <input type="text" style="width: 450px; height: 100px;">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Cerrar</button>
+                                            <button type="button" class="btn btn-primary">Publicar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                Añadir informacion
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog ">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Experiencia laboral
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body ">
+                                            <input type="text" style="width: 450px; height: 100px;">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Cerrar</button>
+                                            <button type="button" class="btn btn-primary">Publicar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <h3 class="titulo">Educacion</h3>
+                        <p class="texto">Añade tu Educacion.</p>
+
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                Añadir informacion
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog ">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Experiencia laboral
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body ">
+                                            <input type="text" style="width: 450px; height: 100px;">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Cerrar</button>
+                                            <button type="button" class="btn btn-primary">Publicar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                Añadir informacion
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog ">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Experiencia laboral
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body ">
+                                            <input type="text" style="width: 450px; height: 100px;">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Cerrar</button>
+                                            <button type="button" class="btn btn-primary">Publicar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                Añadir informacion
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog ">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Experiencia laboral
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body ">
+                                            <input type="text" style="width: 450px; height: 100px;">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Cerrar</button>
+                                            <button type="button" class="btn btn-primary">Publicar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                Añadir informacion
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog ">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Experiencia laboral
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body ">
+                                            <input type="text" style="width: 450px; height: 100px;">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Cerrar</button>
+                                            <button type="button" class="btn btn-primary">Publicar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                Añadir informacion
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog ">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Experiencia laboral
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body ">
+                                            <input type="text" style="width: 450px; height: 100px;">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Cerrar</button>
+                                            <button type="button" class="btn btn-primary">Publicar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="p-3">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                Añadir informacion
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog ">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Experiencia laboral
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body ">
+                                            <input type="text" style="width: 450px; height: 100px;">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Cerrar</button>
+                                            <button type="button" class="btn btn-primary">Publicar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+  <section class="seccion-perfil-usuario" style="position: relative; margin-right: auto;">
+    <div class="perfil-usuario-body">
+      <div class="perfil-usuario-bio" style="height: 500px; width: 600px;">
+      <div class="skills-align">
+
+        <h1>Skills</h1>
+  <!--Skills soft-->
+         
+  <div class="skill">
+<div class="outer">
+  <div class="inner">
+    <div id="number">
+      65%
+    </div>
+  </div>
+</div>
+<p>Skills Softs</p>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+  <defs>
+     <linearGradient id="GradientColor">
+        <stop offset="0%" stop-color="#e91e63" />
+        <stop offset="100%" stop-color="#673ab7" />
+     </linearGradient>
+  </defs>
+  <circle class="circle-soft" cx="80" cy="80" r="70" stroke-linecap="round" />
+</svg>
+  </div>
+      <ul>
+    <!--Skills Hard-->
+    <div class="skill">
+      <div class="outer">
+        <div class="inner">
+          <div id="number">
+            42%
+          </div>
+        </div>
+      </div>
+      <p>Skills Hard</p>
+      
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+        <defs>
+           <linearGradient id="GradientColor">
+              <stop offset="0%" stop-color="#e91e63" />
+              <stop offset="100%" stop-color="#673ab7" />
+           </linearGradient>
+        </defs>
+        <circle class="circle-hard" cx="80" cy="80" r="70" stroke-linecap="round" />
+      </svg>
+        </div>
+        
+      <!--Idioms-->
+      <div class="skill">
+        <div class="outer">
+          <div class="inner">
+            <div id="number">
+              36%
+            </div>
+          </div>
+        </div>
+        <p>English</p>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+          <defs>
+             <linearGradient id="GradientColor">
+                <stop offset="0%" stop-color="#e91e63" />
+                <stop offset="100%" stop-color="#673ab7" />
+             </linearGradient>
+          </defs>
+          <circle class="circle-idioms" cx="80" cy="80" r="70" stroke-linecap="round" />
+        </svg>
+
+
+        <script>
+            let number = document.getElementById("number");
+            let counter = 0;
+setInterval(( ) => {
+    if(counter == 65){
+        clearInterval();
+    }else{
+        counter += 1;
+        number.innerHTML = counter + "%";
+    }
+
+
+}, 30)
+        </script>
+        </div>
+    </div>
+</div>     
+</div>
+
+    </section>
+
+
+</body>
+
+</html>
